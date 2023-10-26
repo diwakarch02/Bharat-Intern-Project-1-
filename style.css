@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1c9c5;
+}
+
+header {
+    text-align: center;
+    background-color: #32cee6;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(57deg, #8ddad0, #05a26d);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+}
+#upperpage{
+    display: flex;
+    padding-left: 30px;
+    height: 300px;
+    justify-content: space-between;
+}
+.yellow  img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    right: 200px;
+}
+
+.red{
+    position: relative;
+    left: 100px;
+    top: 80px;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color:  #05a26d;
+    padding: 10px;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+nav li a:hover{
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+#about h2{
+    text-align: center;
+    /* text-decoration: underline; */
+    
+}
+#about p{
+    text-align: center;
+}
+.project_class{
+ display: flex;
+ margin: auto;
+}
+#portfolio h2{
+    text-align: center;
+    /* text-decoration: underline; */
+    
+}
+.line{
+    background-color: #ffffff;
+    width: 100%;
+    height: 3px;
+}
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 15%;
+    text-align: left;
+}
+
+/* Add more styles as needed */
+/* Add this to your CSS to style the icons */
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.contact-icon {
+    margin: 10px;
+    text-decoration: none;
+    color: #333; 
+    font-size: 20px; 
+}
+.icon{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+/* Adjust as needed for your design */
+
+
